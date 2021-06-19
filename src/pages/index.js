@@ -4,23 +4,14 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 import Posts from '../components/Posts'
-import Guides from '../components/Guides'
-import Projects from '../components/Projects'
 import SEO from '../components/SEO'
 import Blurb from '../components/Blurb'
 import { getSimplifiedPosts } from '../utils/helpers'
 import config from '../utils/config'
-import projects from '../data/projects'
-import interviews from '../data/interviews'
-import speaking from '../data/speaking'
 
 export default function BlogIndex({ data }) {
   const latest = data.latest.edges
-  const popular = data.popular.edges
   const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest])
-  const simplifiedPopular = useMemo(() => getSimplifiedPosts(popular), [
-    popular,
-  ])
 
   const Section = ({ title, children, button, ...props }) => (
     <section {...props}>
@@ -40,44 +31,14 @@ export default function BlogIndex({ data }) {
     <Layout>
       <Helmet title={config.siteTitle} />
       <SEO />
-      <Blurb title="I'm Tania Rascia.">
+      <Blurb title="Hello, World!">
         <p>
-          I'm a software engineer and writer. This website is my digital garden
-          &mdash; a compendium of the things I've learned and created over the
-          years.
+          I'm a software engineer and writer.
         </p>
       </Blurb>
       <div className="container index">
         <Section title="Latest Articles." button>
           <Posts data={simplifiedLatest} />
-        </Section>
-        <Section title="Popular Articles." button>
-          <Posts data={simplifiedPopular} />
-        </Section>
-        <Section title="Projects.">
-          <Projects data={projects} />
-        </Section>
-        <Section title="Interviews.">
-          <Guides data={interviews} frontPage />
-        </Section>
-        <Section title="Speaking.">
-          <Guides data={speaking} frontPage />
-        </Section>
-        <Section title="Newsletter.">
-          <div className="flex justify-between">
-            <p className="paragraph">
-              I send out an email when I create something new.
-            </p>
-            <a
-              href="https://taniarascia.substack.com/subscribe"
-              target="_blank"
-              rel="noreferrer"
-              className="button"
-              style={{ textAlign: 'center', marginLeft: '.5rem' }}
-            >
-              Get the newsletter
-            </a>
-          </div>
         </Section>
       </div>
     </Layout>
@@ -87,7 +48,7 @@ export default function BlogIndex({ data }) {
 export const pageQuery = graphql`
   query IndexQuery {
     latest: allMarkdownRemark(
-      limit: 5
+      limit: 6
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { template: { eq: "post" } } }
     ) {

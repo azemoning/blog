@@ -588,7 +588,7 @@ main {
   .menu-item {
     grid-column: auto;
     justify-self: flex-end;
-    width: 350px;
+    /* width: 350px; */
   }
 }
 
@@ -672,6 +672,7 @@ main {
     font-weight: 400;
     color: var(--font-color);
     background: transparent;
+    margin: 3px;
   }
 
   .navbar a.brand {
@@ -696,7 +697,6 @@ main {
   .menu-item {
     grid-column: auto;
     justify-self: flex-end;
-    width: 500px;
   }
 }
 

@@ -5,10 +5,10 @@ import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import config from '../utils/config'
-import takeNote from '../../content/images/takenoteproject.png'
-import laconia from '../../content/images/laconiaproject.png'
-import primitive from '../../content/images/primitiveproject.png'
-import chip8 from '../../content/images/chip8project.png'
+// import takeNote from '../../content/images/takenoteproject.png'
+// import laconia from '../../content/images/laconiaproject.png'
+// import primitive from '../../content/images/primitiveproject.png'
+// import chip8 from '../../content/images/chip8project.png'
 
 export default function ProjectsIndex() {
   return (
@@ -36,9 +36,6 @@ export default function ProjectsIndex() {
               </i>
             </small>
           </p>
-          <a href="https://takenote.dev" className="link-image" target="_blank">
-            <img src={takeNote} />
-          </a>
           <p>
             I built this app because I wanted a simpler, IDE-like, WYSIWYG-free
             note-taking program that would be accessible from any platform via
@@ -72,13 +69,13 @@ export default function ProjectsIndex() {
               <i>2019 &mdash; JavaScript, Node, Blessed</i>
             </small>
           </p>
-          <a
+          {/* <a
             href="https://taniarascia.github.io/chip8"
             className="link-image"
             target="_blank"
           >
             <img src={chip8} />
-          </a>
+          </a> */}
           <p>
             Chip8.js includes a CPU class that handles all the internal logic of
             the emulator, and individual classes written for interfacing with a
@@ -117,9 +114,9 @@ export default function ProjectsIndex() {
               <i>2018 &mdash; PHP, MySQL</i>
             </small>
           </p>
-          <a href="https://laconia.dev" className="link-image" target="_blank">
+          {/* <a href="https://laconia.dev" className="link-image" target="_blank">
             <img src={laconia} />
-          </a>
+          </a> */}
           <p>
             In my time of working with custom PHP systems, I noticed a lot of
             extremely messy, haphazardly put-together code, code that had no
@@ -146,13 +143,13 @@ export default function ProjectsIndex() {
           <p>
             <i>2016 &mdash; Sass, CSS</i>
           </p>
-          <a
+          {/* <a
             href="https://taniarascia.github.io/primitive"
             className="link-image"
             target="_blank"
           >
             <img src={primitive} />
-          </a>
+          </a> */}
           <p>
             I made my first websites in the late '90s, when HTML was written in
             uppercase, tables were using for creating layouts, and CSS didn't

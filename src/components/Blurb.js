@@ -1,6 +1,5 @@
 import React from 'react'
 
-import tania from '../../content/images/tania2020small.jpg'
 
 export default function Blurb({ title, children }) {
   return (
@@ -10,9 +9,9 @@ export default function Blurb({ title, children }) {
           <h1>{title}</h1>
           {children}
         </div>
-        <div>
+        {/* <div>
           <img src={tania} alt="Tania" className="avatar" />
-        </div>
+        </div> */}
       </div>
     </section>
   )

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import floppy from '../../content/images/floppylogo.png'
 
 export default function Nav() {
   return (
@@ -9,18 +8,14 @@ export default function Nav() {
         <div className="grid">
           <div>
             <Link to="/" className="brand">
-              <span className="emoji">
-                <img src={floppy} alt="Floppy Diskette" />
-              </span>{' '}
-              Tania Rascia
+              Ahmad Saufi Maulana
             </Link>
           </div>
 
-          <div className="menu-item flex">
+          <div className="menu-item">
             <Link to="/blog">Blog</Link>
-            <Link to="/guides">Guides</Link>
             <Link to="/projects">Projects</Link>
-            <Link to="/me">About me</Link>
+            <Link to="/me">About</Link>
           </div>
 
           <div className="button-item">
@@ -54,7 +49,7 @@ export default function Nav() {
               }}
             >
               {typeof window !== 'undefined' &&
-              localStorage.getItem('theme') === 'dark'
+                localStorage.getItem('theme') === 'dark'
                 ? '☀️'
                 : '🌙'}
             </button>

@@ -83,13 +83,6 @@ export const pageQuery = graphql`
             tags
             categories
             topic
-            thumbnail {
-              childImageSharp {
-                fixed(width: 100, height: 100) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
           }
         }
       }

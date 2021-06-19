@@ -50,7 +50,7 @@ export default function PostTemplate({ data, pageContext }) {
                   <h1>{title}</h1>
                   <div className="post-meta">
                     <div>
-                      By <Link to="/me">Tania Rascia</Link> on{' '}
+                      By <Link to="/me">Ahmad Saufi Maulana</Link> on{' '}
                       <time>{date}</time>
                     </div>
                     {tags && (
@@ -68,12 +68,6 @@ export default function PostTemplate({ data, pageContext }) {
                     )}
                   </div>
                 </div>
-                {thumbnail && (
-                  <Img
-                    fixed={thumbnail.childImageSharp.fixed}
-                    className="post-thumbnail"
-                  />
-                )}
               </div>
             </div>
             {description && <p className="description">{description}</p>}
@@ -84,36 +78,11 @@ export default function PostTemplate({ data, pageContext }) {
           />
         </article>
       </div>
-      <Blurb title="About the author">
-        <p>
-          Hey, I'm <Link to="/me">Tania</Link>, a software engineer, writer, and
-          open-sourceror. I publish articles and tutorials about modern
-          JavaScript, design, and programming.
-        </p>
-        <p>
-          <a
-            className="button"
-            href="https://taniarascia.substack.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Get the newsletter
-          </a>
-          <a
-            className="button"
-            href="https://ko-fi.com/taniarascia"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Buy me a coffee
-          </a>
-        </p>
-      </Blurb>
       <div className="container">
-        <div id="comments">
+        {/* <div id="comments">
           <h2>Comments</h2>
           <Comment commentBox={commentBox} />
-        </div>
+        </div> */}
 
         <Suggested previous={previous} next={next} />
       </div>
@@ -134,13 +103,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         tags
         description
-        thumbnail {
-          childImageSharp {
-            fixed(width: 150, height: 150) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
       }
     }
   }
