@@ -1,8 +1,8 @@
 ---
 date: 2021-05-16
-title: 'Sample Post 3'
+title: 'Sample Post'
 template: post
-slug: sample-post-3
+slug: sample-post
 description: ''
 categories:
   - Sample
