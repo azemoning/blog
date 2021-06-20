@@ -1,5 +1,5 @@
 {
-  "name": "blog.saufi.my.id",
+  "name": "blog.upi.my.id",
   "private": true,
   "version": "1.0.0",
   "description": "Personal website running on Gatsby, React, and Node.js.",
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azemoning/saufi.my.id"
+    "url": "https://github.com/azemoning/blog"
   },
   "resolutions": {
     "gatsby-react-router-scroll": "3.0.3"

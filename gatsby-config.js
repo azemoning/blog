@@ -5,11 +5,11 @@ module.exports = {
       name: 'Ahmad Saufi Maulana',
     },
     pathPrefix: '/',
-    siteUrl: 'https://blog.saufi.my.id',
+    siteUrl: 'https://blog.upi.my.id',
     description:
       'Software engineer and a young learner. This is my digital garden.',
-    feedUrl: 'https://blog.saufi.my.id/rss.xml',
-    logo: 'https://blog.saufi.my.id/logo.png',
+    feedUrl: 'https://blog.upi.my.id/rss.xml',
+    logo: 'https://blog.upi.my.id/logo.png',
   },
   plugins: [
     // ===================================================================================
