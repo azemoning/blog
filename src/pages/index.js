@@ -33,7 +33,7 @@ export default function BlogIndex({ data }) {
       <SEO />
       <Blurb title="Hello, World!">
         <p>
-          I'm a software engineer and writer.
+          I'm a software engineer who loves to write.
         </p>
       </Blurb>
       <div className="container index">

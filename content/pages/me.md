@@ -1,37 +1,26 @@
 ---
-title: Tentang Saya 🙋‍♂️
+title: About me
 slug: me
 template: page
-topic: test
+topic: About
 ---
 
-Halo, Saya Ahmad Saufi Maulana, orang-orang terdekat saya biasa memanggil saya dengan **Upi**, saat ini saya sedang menempuh tahun ke-2 di dunia perkuliahan dan sedang sangat senang sekali mempelajari banyak hal baru.
+Hello, I'm Ahmad Saufi Maulana, my closest people who I usually call **Upi**, I'm currently in my final year of college and I'm very happy to learn new things.
 
-Saya juga mempunyai [daftar](/me) (segera hadir!) mengenai apa saja yang sedang dan sudah saya pelajari berkaitan dengan data engineering dan devops, ini hanya dokumentasi yang saya gunakan untuk mengukur sejauh mana saya sudah belajar mengenai hal tersebut 😁
+My goal in making this site is actually just for my personal documentation when I'm learning new things so I don't bother looking back and forth for reference sites, besides that I also like to write notes whether it's in the form of personal stories, stories, or just sharing recipes 🍕.
 
-Untuk sosial media, saya saat ini hanya aktif menggunakan Facebook dan Twitter, kalau penasaran bisa tambahkan saya sebagai teman di Facebook atau ikuti saya di Twitter menggunakan link yang sudah saya sediakan pada bagian footer situs ini.
+## Contacts
 
-Tujuan saya membuat situs ini sebenarnya hanya untuk dokumentasi pribadi saya ketika saya sedang belajar hal baru agar tidak repot bolak-balik melihat kembali ke situs referensi, selain itu juga saya juga senang menuliskan catatan-catatan baik itu berupa curhatan pribadi, cerita, atau sekedar berbagi resep makanan 🍝
+If you had something to discuss with me, you can reach me on these platforms
 
+- [Facebook](https://facebook.com/azemoning)
+- [Twitter](https://facebook.com/azemoning)
+- [Telegram](https://t.me/azemoning)
+- [Email](mailto:ahmadsaufimaulana@gmail.com)
 
-## Rekomendasi Musik 🎵
+## Currently in use
 
-Berikut sebuah rekomendasi musik dari saya, tentunya akan saya update setiap minggu 
-
-https://open.spotify.com/track/6csX1JjmeoLhGqMBXGnZF0
-
-Kalau mood saya sedang bagus, saya bisa merekomendasikan satu playlist penuh 😊
-
-## Saat Ini Digunakan 💻
-
-- **Computer:** **Acer E5-475G**
 - **Hosting:** [Netlify](https://netlify.com)
 - **Website Repository:** [Github](https://github.com)
 - **Text Editor:** [Visual Studio Code](https://code.visualstudio.com/)
 - **Static Site Generator:** [Gatsby](https://gatsbyjs.org)
-- **Notes App:** [Simplenote](https://simplenote.com)
-
-## Ulasan Tahunan 📝
-
-- [2020 ke 2021](/2020-ke-2021)
-- [2019 ke 2020](/2019-ke-2020)
