@@ -8,9 +8,6 @@ export function getSimplifiedPosts(posts, options = {}) {
     title: post.node.frontmatter.title,
     description: post.node.frontmatter.description,
     topic: post.node.frontmatter.topic,
-    ...(options.thumbnails && {
-      thumbnail: post.node.frontmatter.thumbnail.childImageSharp.fixed,
-    }),
   }))
 }
 
