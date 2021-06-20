@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Tania Rascia',
+    title: 'Ahmad Saufi Maulana',
     author: {
-      name: 'Tania Rascia',
+      name: 'Ahmad Saufi Maulana',
     },
     pathPrefix: '/',
-    siteUrl: 'https://www.taniarascia.com',
+    siteUrl: 'https://blog.saufi.my.id',
     description:
-      'Software engineer and open-source creator. This is my digital garden.',
-    feedUrl: 'https://www.taniarascia.com/rss.xml',
-    logo: 'https://www.taniarascia.com/logo.png',
+      'Software engineer and a young learner. This is my digital garden.',
+    feedUrl: 'https://blog.saufi.my.id/rss.xml',
+    logo: 'https://blog.saufi.my.id/logo.png',
   },
   plugins: [
     // ===================================================================================
@@ -24,7 +24,7 @@ module.exports = {
         name: 'Tania Rascia',
         short_name: 'Tania Rascia',
         description:
-          'Software engineer and open source creator. This is my digital garden.',
+          'Software engineer and a young learner. This is my digital garden.',
         start_url: '/',
         background_color: 'white',
         theme_color: '#5183f5',
