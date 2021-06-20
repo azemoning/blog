@@ -2,8 +2,7 @@
 date: 2021-05-16
 title: 'Sample Post 3'
 template: post
-thumbnail: '../thumbnails/vue.png'
-slug: berkenalan-dengan-vue
+slug: sample-post-3
 description: ''
 categories:
   - Sample

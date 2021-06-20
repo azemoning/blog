@@ -2,8 +2,7 @@
 date: 2021-05-02
 title: 'Sample Post 1'
 template: post
-thumbnail: '../thumbnails/gatsby.png'
-slug: 'migrasi-wordpress-ke-gatsby'
+slug: 'sample-post-1'
 description: 'Sample'
 categories:
     - Sample
