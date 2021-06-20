@@ -1,14 +1,14 @@
 ---
 date: 2021-07-20
-title: 'Ulasan Pribadi dari Tahun 2019 ke 2020'
+title: 'Sample Post 2'
 template: post
 thumbnail: '../thumbnails/writing.png'
 slug: '2019-ke-2020'
-description: 'test'
+description: 'Sample'
 categories:
-    - Personal
+    - Sample
 tags:
-    - ulasan
+    - Sample
 ---
 
-test
+Sample content

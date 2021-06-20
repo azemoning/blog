@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Tania Rascia',
-        short_name: 'Tania Rascia',
+        name: 'Ahmad Saufi Maulana',
+        short_name: 'Upi',
         description:
           'Software engineer and a young learner. This is my digital garden.',
         start_url: '/',
@@ -58,7 +58,7 @@ module.exports = {
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [
                     { 'content:encoded': edge.node.html },
-                    { author: 'hello@taniarascia.com' },
+                    { author: 'ahmadsaufimaulana@gmail.com' },
                   ],
                 })
               })
@@ -88,7 +88,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Tania Rascia | RSS Feed',
+            title: 'Ahmad Saufi Maulana | RSS Feed',
           },
         ],
       },

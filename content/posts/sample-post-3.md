@@ -1,17 +1,14 @@
 ---
-date: 2019-05-16
-title: 'Berkenalan dengan Vue.js - Overview dan Tutorial'
+date: 2021-05-16
+title: 'Sample Post 3'
 template: post
 thumbnail: '../thumbnails/vue.png'
 slug: berkenalan-dengan-vue
 description: ''
 categories:
-  - Code
+  - Sample
 tags:
-  - javascript
-  - vue
-  - library
-  - framework
+  - Sample
 ---
 
 

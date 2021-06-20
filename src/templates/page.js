@@ -12,11 +12,10 @@ export default function PageTemplate({ data }) {
   return (
     <Layout>
       <Helmet
-        title={`${
-          post.frontmatter.title === 'Tania Rascia'
+        title={`${post.frontmatter.title === 'Ahmad Saufi Maulana'
             ? 'Resume'
             : post.frontmatter.title
-        } | ${config.siteTitle}`}
+          } | ${config.siteTitle}`}
       />
       <SEO />
       <header>
